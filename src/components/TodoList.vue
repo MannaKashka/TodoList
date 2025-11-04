@@ -139,7 +139,6 @@
         <input 
           type="checkbox" 
           v-model="todo.completed"
-          @change="toggleTodo(todo.id)"
           class="todo-checkbox"
           :disabled="editingId === todo.id"
         >
